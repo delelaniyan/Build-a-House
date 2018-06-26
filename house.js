@@ -1,3 +1,7 @@
+function setup() {
+  createCanvas(400, 400);
+}
+function draw() {
 background(32, 28, 153);
 
 // roof //
@@ -42,4 +46,5 @@ var x = 0;
 while ( x < 417 ) {
     image(sun, x, 29, 64, 64);
     x +=76;
+}
 }
